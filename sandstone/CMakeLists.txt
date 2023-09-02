@@ -10,6 +10,6 @@ set_target_properties(${PROJECT_NAME} PROPERTIES VERSION ${PROJECT_VERSION})
 set_target_properties(${PROJECT_NAME} PROPERTIES SOVERSION ${PROJECT_VERSION_MAJOR})
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_20)
 
-add_subdirectory(src/sandstone/core)
+add_subdirectory(src/sandstone)
 
 install(TARGETS ${PROJECT_NAME} FILE_SET HEADERS)
