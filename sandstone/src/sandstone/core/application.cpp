@@ -2,7 +2,7 @@
 // Created by Daniel Secrieru on 01/09/2023.
 //
 
-#include <iostream>
+#include <sandstone/core/log.hpp>
 
 #include "application.hpp"
 
@@ -11,5 +11,5 @@ using namespace sandstone;
 application::~application() = default;
 
 void application::run() {
-    std::cout << "Hello sandstone!\n";
+    ss_eng_logi("application running ...");
 }

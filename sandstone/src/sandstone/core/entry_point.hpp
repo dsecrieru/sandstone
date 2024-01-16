@@ -5,9 +5,11 @@
 #ifndef SANDSTONE_ENTRY_POINT_HPP
 #define SANDSTONE_ENTRY_POINT_HPP
 
-#include "application.hpp"
+#include <sandstone/core/log.hpp>
+#include <sandstone/core/application.hpp>
 
 int main(int argc, char** argv) {
+    sandstone::log::init();
     auto app = sandstone::create_application();
     app->run();
     delete app;

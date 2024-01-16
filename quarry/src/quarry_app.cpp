@@ -8,5 +8,6 @@ class quarry : public sandstone::application {
 };
 
 sandstone::application* sandstone::create_application() {
+    ss_logi("creating quarry app");
     return new quarry();
 }

@@ -5,6 +5,7 @@
 #ifndef SANDSTONE_SANDSTONE_HPP
 #define SANDSTONE_SANDSTONE_HPP
 
-#include "core/application.hpp"
+#include "sandstone/core/log.hpp"
+#include "sandstone/core/application.hpp"
 
 #endif //SANDSTONE_SANDSTONE_HPP
